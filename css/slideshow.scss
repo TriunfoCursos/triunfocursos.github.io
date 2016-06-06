@@ -1,0 +1,59 @@
+---
+---
+
+@import "vars";
+
+.slideshow {
+
+	position: relative;
+	overflow: hidden;
+	height: $spacing-unit * 4;
+
+	&:hover:after {
+		content: url('{{ site.baseurl }}/img/pause-btn.svg');
+		position: absolute;
+		bottom: 0;
+		right: 0;
+	}
+
+	.slide {
+
+		font-size: 1.2em;
+		transition: 1s ease-in-out;
+		opacity: 1;
+		margin: 0;
+		// IE 9
+		max-width: 100%;
+		box-sizing: border-box;
+		//
+
+		&:not(:first-of-type) {
+			position: fixed;
+			top: -100%;
+			opacity: 0;
+			margin: -100% 0;
+		}
+
+		.author {
+			display: block;
+			margin-top: $base-font-size;
+
+			&:before {
+				content: '\2013';
+				margin-right: $base-font-size;
+			}
+
+		}
+
+	}
+
+	@include media-query($on-palm) {
+		height: $spacing-unit * 6;
+
+		.slide {
+			font-size: 1em;
+		}
+
+	}
+
+}

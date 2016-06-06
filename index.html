@@ -1,0 +1,46 @@
+---
+layout: home
+---
+<div class="page-content section-testimonials">
+  <div class="wrapper">
+    {% include section-testimonials.html %}
+  </div>
+</div>
+<div class="page-content section-summary">
+  <div class="wrapper">
+    {% include section-summary.html %}
+  </div>
+</div>
+<div class="page-content section-contact">
+  <div class="wrapper">
+    {% include section-contact.html %}
+  </div>
+</div>
+<div class="page-content section-posts">
+    <div class="wrapper">
+        <h2 class="page-heading">
+            Blog
+        </h2>
+        <ul class="post-list">
+            {% for post in site.posts %}
+            <li>
+                <span class="post-meta">
+                    {{ post.date | date: "%b %-d, %Y" }}
+                </span>
+                <h2>
+                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                        {{ post.title }}
+                    </a>
+                </h2>
+                {{ post.excerpt | strip_html }}
+            </li>
+            {% endfor %}
+        </ul>
+        <p class="rss-subscribe">
+            Assine o
+            <a href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+                feed RSS
+            </a>
+        </p>
+    </div>
+</div>

@@ -1,0 +1,57 @@
+<link href="{{ site.baseurl }}/css/slideshow.css" rel="stylesheet" type="text/css"/>
+<div class="slideshow grid _centered _column">
+    <blockquote class="slide">
+        Estudar com o professor Carlos Nunes foi muito bom. Não imaginava que as aulas dele eram tão gostosas e relaxantes. Sua aulas são dinâmicas e de bons resultados. Aprendi muito com o professor, tanto na área profissional como pessoal. Gostei muito de tê-lo como meu professor de administração, pois ele é ótimo. O professor Carlos é desembaraçado e comunicativo. Seus ensinamentos dão ótimos resultados.
+        <small class="author">
+            Daniele Cristina de Moraes
+        </small>
+    </blockquote>
+    <blockquote class="slide">
+        Só tenho que agradecer a dedicação do professor que deu a mim e aos meus colegas de classe o devido conhecimento dessa área, abrindo nossa mente para novos horizontes.
+        <small class="author">
+            Paola Fernandes Crispin
+        </small>
+    </blockquote>
+    <blockquote class="slide">
+        Devo dizer que as aulas de administração foram muito proveitosas. As explicações são claras e objetivas. Tiramos nossas dúvidas abertamente. Valeu a pena termos dedicado algumas horas de nosso tempo para aprendermos sobre essa matéria. Saio desse curso satisfeita.
+        <small class="author">
+            Raquel
+        </small>
+    </blockquote>
+    <blockquote class="slide">
+        Venho por meio deste depoimento dizer que as suas aulas foram maravilhosas, além de ser aulas dinâmicas e participativas. A respeito do professor Carlos, gostaria de agradecer pelos seus ensinamentos, não só para mim, como para todos deste curso. Foram 12 aulas de puro entendimento e aprendizagem. Obrigada de coração. Tudo de bom para o Senhor, dê muita aula, sucesso e estou torcendo pelo Senhor.
+        <small class="author">
+            Karen Aline Andrade Scarpa
+        </small>
+    </blockquote>
+    <blockquote class="slide">
+        O curso de administração foi ótimo. O professor Carlos Nunes foi muito paciente e um ótimo professor, amigo e legal. Com ele a gente aprendeu o que precisava e mais um pouco. O pouco tempo que estudei com ele foi o bastante para aprender e também fazer um grande amigo. O professor Carlos Nunes não é apenas um professor, mas uma grande pessoa.
+        <small class="author">
+            Isamara Gama Lourenço
+        </small>
+    </blockquote>
+</div>
+<script>
+	var slideshow = document.getElementsByClassName('slideshow')[0];
+	var insertMethod = !!(slideshow.insertAdjacentElement);
+	var slideInterval = playSlide();
+	var slideNodes = slideshow.getElementsByClassName('slide');
+	slideshow.addEventListener('mouseover', function(){pauseSlide(slideInterval)});
+	slideshow.addEventListener('mouseout', function(){slideInterval = playSlide();});
+	function playSlide(){
+		return setInterval(slide, 5 * 1000);
+	}
+	function pauseSlide(id){
+		clearInterval(id);
+	}
+	function slide(){
+		var firstSlide = slideNodes[0];
+		var lastSlide = slideNodes[ slideNodes.length - 1 ];
+		if (insertMethod) {
+			slideshow.insertAdjacentElement('beforeend', firstSlide)
+		}
+		else {
+			slideshow.insertBefore(lastSlide, firstSlide);
+		}
+	}
+</script>

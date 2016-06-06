@@ -1,0 +1,1 @@
+{"C:\\Users\\Audiovisual\\GitHub\\triunfocursos\\gulpfile.js":{"sha1":"25161eefba52a7f592c2935ff42a3dfd84b725cf","tasks":{"default":{"name":"default","dependencies":"serve watch"},"watch":{"name":"watch","dependencies":""},"coffee":{"name":"coffee","dependencies":""},"sass":{"name":"sass","dependencies":""},"serve":{"name":"serve","dependencies":""}}}}
