@@ -15,7 +15,12 @@
 .top-banner {
     position: relative;
     display: block;
-    margin: -20% auto 0;
+    margin: -25% auto 0;
+
+    @include media-query($on-palm) {
+        margin-top: -35%;
+    }
+
 }
 
 .site-nav {
