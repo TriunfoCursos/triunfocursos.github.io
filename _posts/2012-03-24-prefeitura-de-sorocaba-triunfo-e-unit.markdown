@@ -9,7 +9,7 @@ excerpt: >
   com dados do PAT e outros indicadores.
 ---
 
-![]({{site.baseurl}}/imagens/prof-01.jpg){: style="float: left;" }
+![]({{site.baseurl}}/imagens/prof-01.jpg){: style="float: left; margin-right: 1em;" }
 
 A prefeitura de Sorocaba, preocupada com a capacitação e qualificação dos seus cidadãos, e buscando atender a demanda e a necessidade dos empresários da região, uniu-se à Triunfo através de parceria com a Unit - Universidade do Trabalhador em projetos que vêm ocorrendo desde agosto de 2009. A Unit teve como curso piloto no ano de 2008: Pré – Vestibular, NR10 (Lei Regulamentar para Eletricista), Logística, Patchwork (Arte em Bonecas), Telefonia e Cabeamento Estruturado, Libras, Web Designer, Básico em Marketing e Manutenção de Micros. Os cursos desenvolvidos pela Universidade são relacionados às necessidades do mercado de trabalho local, levantadas pelo PAT – Posto de Atendimento ao Trabalhador e outros indicadores. Esta integração de trabalho é um dos pontos fortes do projeto.
 
