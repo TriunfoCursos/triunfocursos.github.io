@@ -11,11 +11,11 @@ excerpt: >
 
 #### Recolhimento devolvido ao consumidor
 
-![Nota fiscal paulista](http://triunfocursos.com.br/imagens/notafiscal_01.gif)
+![Nota fiscal paulista]({{site.baseurl}}/imagens/notafiscal_01.gif)
 
 Agora em São Paulo é assim: 30% do ICMS recolhido pelo estabelecimento comercial será devolvido ao consumidor. Isso vai reduzir, de fato, a carga tributária individual dos cidadãos. O Governo do Estado de São Paulo instituiu a lei que criou o Programa de Estímulo à Cidadania Fiscal e implantou o projeto da Nota Fiscal Paulista a partir de 1° de outubro 2007. O projeto da Nota Fiscal Paulista devolve dinheiro para os consumidores. Ele é um incentivo para que os cidadãos que adquirem mercadorias exijam do estabelecimento comercial o documento fiscal.
 
-Os consumidores identificados pelo CPF ou CNPJ no momento da compra vão receber créditos e ainda vão se habilitar a concorrer a prêmios. O objetivo é incentivar nos cidadãos o hábito de exigir a nota ou o cupom fiscal. Saiba mais no [site da Secretaria da Fazenda](http://www.nfp.fazenda.sp.gov.br/)
+Os consumidores identificados pelo CPF ou CNPJ no momento da compra vão receber créditos e ainda vão se habilitar a concorrer a prêmios. O objetivo é incentivar nos cidadãos o hábito de exigir a nota ou o cupom fiscal. Saiba mais no [site da Secretaria da Fazenda](http://www.nfp.fazenda.sp.gov.br/){: target="_blank"}
 
 Entre os benefícios do programa para o estabelecimento comercial, destacam-se:
 
