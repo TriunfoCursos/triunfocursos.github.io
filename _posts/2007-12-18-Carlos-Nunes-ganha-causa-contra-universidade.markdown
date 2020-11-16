@@ -11,7 +11,7 @@ excerpt: >
 
 #### Universidade não atende ordem judicial e faz aluna cursar novamente mesmas matérias
 
-[Clique aqui para ver as cópias do Acórdão da Sentença](http://triunfocursos.com.br/causa_ganha/acordao.pdf)
+[Clique aqui para ver as cópias do Acórdão da Sentença]({{site.baseurl}}/causa_ganha/acordao.pdf)
 
 Um processo judicial envolvendo o Instituto Educacional Piracicabano - Universidade Metodista de Piracicaba (Unimep) e uma ex-aluna do curso de Fonoaudiologia, residente em Sorocaba, que já dura mais de 4 anos, chama a atenção para o descumprimento de uma ordem judicial, já reconhecida em todas as instâncias, estabelecida à Universidade. A história teve início quando a Unimep se negou a efetivar a rematrícula da aluna por causa da existência de débitos referentes ao ano de 2002. Os laudos judiciais ainda relatam que a instituição também se recusou a receber os valores devidos em relação ao primeiro semestre de 2003. Desta forma, a aluna Thais Helena Nunes entrou na justiça, requerendo o direito de fazer a rematrícula.
 
